@@ -68,7 +68,7 @@ class TetrisGame
 {
 
 public:
-	static const float PI=3.141592653589793238;
+	static constexpr float PI=3.141592653589793238;
 	TetrisGame();
 	~TetrisGame();
 	void InitGraphics();
