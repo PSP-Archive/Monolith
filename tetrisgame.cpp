@@ -500,8 +500,8 @@ void TetrisGame::GameLoop()
 	unsigned int now=tickcounter.GetTicks();
     unsigned int lastKeyPress = tickcounter.GetTicks();
 	unsigned int minKeyTime = defaultminkeytime;	
-	float g_valyz=0;
-	float g_valxz=0;
+	// float g_valyz=0;
+	// float g_valxz=0;
 	sceKernelDcacheWritebackAll();
 	ClearExplosion();
 	while(running())
@@ -538,7 +538,7 @@ void TetrisGame::GameLoop()
 		char str[255];
 		char level[255];
 		char lines[255];
-		char tick[255];
+		// char tick[255];
 		char sxpos[255];
 		char sypos[255];
 		sprintf(sxpos,"%f",yzAngle);
